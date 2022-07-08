@@ -1,8 +1,8 @@
 namespace ResumeGenerator
 {
-    public partial class Form1 : Form
+    public partial class formResumeCreator : Form
     {
-        public Form1()
+        public formResumeCreator()
         {
             InitializeComponent();
         }
