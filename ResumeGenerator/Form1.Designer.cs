@@ -33,6 +33,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblCreate = new System.Windows.Forms.Label();
             this.btnCreate = new System.Windows.Forms.Button();
+            this.opnFileDlg = new System.Windows.Forms.OpenFileDialog();
+            this.lblDescription = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@
             this.lblResume.BackColor = System.Drawing.Color.MidnightBlue;
             this.lblResume.Font = new System.Drawing.Font("Docktrin", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblResume.ForeColor = System.Drawing.Color.Thistle;
-            this.lblResume.Location = new System.Drawing.Point(230, 18);
+            this.lblResume.Location = new System.Drawing.Point(244, 9);
             this.lblResume.Name = "lblResume";
             this.lblResume.Size = new System.Drawing.Size(370, 164);
             this.lblResume.TabIndex = 1;
@@ -71,11 +73,11 @@
             // 
             this.lblCreate.AutoSize = true;
             this.lblCreate.BackColor = System.Drawing.Color.MidnightBlue;
-            this.lblCreate.Font = new System.Drawing.Font("Grand Aventure Text", 28.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCreate.Font = new System.Drawing.Font("Grand Aventure Text", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCreate.ForeColor = System.Drawing.Color.Thistle;
-            this.lblCreate.Location = new System.Drawing.Point(464, 112);
+            this.lblCreate.Location = new System.Drawing.Point(477, 99);
             this.lblCreate.Name = "lblCreate";
-            this.lblCreate.Size = new System.Drawing.Size(125, 57);
+            this.lblCreate.Size = new System.Drawing.Size(122, 56);
             this.lblCreate.TabIndex = 3;
             this.lblCreate.Text = "CREATE";
             this.lblCreate.UseCompatibleTextRendering = true;
@@ -86,12 +88,31 @@
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Copperplate Gothic Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCreate.ForeColor = System.Drawing.Color.White;
-            this.btnCreate.Location = new System.Drawing.Point(278, 217);
+            this.btnCreate.Location = new System.Drawing.Point(294, 242);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(280, 51);
             this.btnCreate.TabIndex = 4;
             this.btnCreate.Text = "Create my resume";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            // 
+            // opnFileDlg
+            // 
+            this.opnFileDlg.FileName = "opnFileDlg";
+            this.opnFileDlg.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblDescription.Font = new System.Drawing.Font("SimSun-ExtB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDescription.ForeColor = System.Drawing.Color.White;
+            this.lblDescription.Location = new System.Drawing.Point(181, 173);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(539, 40);
+            this.lblDescription.TabIndex = 5;
+            this.lblDescription.Text = "Welcome to Resume Create! Please choose a .json file \r\n      to generate your res" +
+    "ume in .pdf format";
             // 
             // formResumeCreator
             // 
@@ -99,6 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(859, 663);
+            this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.lblCreate);
             this.Controls.Add(this.lblResume);
@@ -119,5 +141,7 @@
         private PictureBox pictureBox1;
         private Label lblCreate;
         private Button btnCreate;
+        private OpenFileDialog opnFileDlg;
+        private Label lblDescription;
     }
 }

@@ -6,7 +6,6 @@ C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\bin\Debug\net6.0-wi
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\bin\Debug\net6.0-windows\itextsharp.dll
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.csproj.AssemblyReference.cache
-C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.Form1.resources
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.csproj.GenerateResource.cache
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.AssemblyInfoInputs.cache
@@ -18,3 +17,4 @@ C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-wi
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.pdb
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.genruntimeconfig.cache
 C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ref\ResumeGenerator.dll
+C:\Users\Nicole\source\repos\ResumeGenerator\ResumeGenerator\obj\Debug\net6.0-windows\ResumeGenerator.formResumeCreator.resources
