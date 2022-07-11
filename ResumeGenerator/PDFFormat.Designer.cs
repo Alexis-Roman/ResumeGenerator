@@ -33,7 +33,7 @@
             this.lblObjective = new System.Windows.Forms.Label();
             this.lblEducation = new System.Windows.Forms.Label();
             this.lblExperience = new System.Windows.Forms.Label();
-            this.lblAwards = new System.Windows.Forms.Label();
+            this.lblCertification = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
@@ -81,14 +81,14 @@
             this.lblExperience.TabIndex = 4;
             this.lblExperience.Text = "experience";
             // 
-            // lblAwards
+            // lblCertification
             // 
-            this.lblAwards.AutoSize = true;
-            this.lblAwards.Location = new System.Drawing.Point(23, 692);
-            this.lblAwards.Name = "lblAwards";
-            this.lblAwards.Size = new System.Drawing.Size(58, 20);
-            this.lblAwards.TabIndex = 5;
-            this.lblAwards.Text = "Awards";
+            this.lblCertification.AutoSize = true;
+            this.lblCertification.Location = new System.Drawing.Point(23, 692);
+            this.lblCertification.Name = "lblCertification";
+            this.lblCertification.Size = new System.Drawing.Size(90, 20);
+            this.lblCertification.TabIndex = 5;
+            this.lblCertification.Text = "Certification";
             // 
             // PDFFormat
             // 
@@ -96,7 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(624, 798);
-            this.Controls.Add(this.lblAwards);
+            this.Controls.Add(this.lblCertification);
             this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblEducation);
             this.Controls.Add(this.lblObjective);
@@ -118,6 +118,6 @@
         private Label lblObjective;
         private Label lblEducation;
         private Label lblExperience;
-        private Label lblAwards;
+        private Label lblCertification;
     }
 }

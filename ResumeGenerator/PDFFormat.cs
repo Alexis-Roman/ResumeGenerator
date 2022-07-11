@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft;
+using Newtonsoft.Json.Linq;
 
 namespace ResumeGenerator
 {
@@ -22,6 +24,9 @@ namespace ResumeGenerator
         private void PDFFormat_Load(object sender, EventArgs e)
         {
            string filepath = GlobalVariable.resume;
+            //MessageBox.Show(filepath);
+            MessageBox.Show(File.ReadAllText(filepath));
+            
 
         }
     }
