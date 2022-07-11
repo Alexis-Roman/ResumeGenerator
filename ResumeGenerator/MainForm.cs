@@ -6,7 +6,7 @@ namespace ResumeGenerator
         {
             InitializeComponent();
         }
-
+       
         private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
 
@@ -21,7 +21,8 @@ namespace ResumeGenerator
             }
            else
             {
-
+                MessageBox.Show("Please select a JSON file first. Thank you!",
+                               "No selected file", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }    
         }
 
@@ -35,6 +36,7 @@ namespace ResumeGenerator
 
             resume = opnFileDlg.FileName;
             txtboxCheck.Text = File.ReadAllText(resume);
+            GlobalVariable.resume = resume;
         }
     }
 } 

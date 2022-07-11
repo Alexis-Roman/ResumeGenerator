@@ -32,7 +32,7 @@
             this.lblResume = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblCreate = new System.Windows.Forms.Label();
-            this.btnCreate = new System.Windows.Forms.Button();
+            this.btnCreateResume = new System.Windows.Forms.Button();
             this.opnFileDlg = new System.Windows.Forms.OpenFileDialog();
             this.lblDescription = new System.Windows.Forms.Label();
             this.btnSelectFile = new System.Windows.Forms.Button();
@@ -84,19 +84,19 @@
             this.lblCreate.Text = "CREATE";
             this.lblCreate.UseCompatibleTextRendering = true;
             // 
-            // btnCreate
+            // btnCreateResume
             // 
-            this.btnCreate.FlatAppearance.BorderSize = 0;
-            this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreate.Font = new System.Drawing.Font("Copperplate Gothic Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCreate.ForeColor = System.Drawing.Color.White;
-            this.btnCreate.Location = new System.Drawing.Point(450, 242);
-            this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(280, 51);
-            this.btnCreate.TabIndex = 4;
-            this.btnCreate.Text = "Create my resume";
-            this.btnCreate.UseVisualStyleBackColor = true;
-            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            this.btnCreateResume.FlatAppearance.BorderSize = 0;
+            this.btnCreateResume.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateResume.Font = new System.Drawing.Font("Copperplate Gothic Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCreateResume.ForeColor = System.Drawing.Color.White;
+            this.btnCreateResume.Location = new System.Drawing.Point(450, 242);
+            this.btnCreateResume.Name = "btnCreateResume";
+            this.btnCreateResume.Size = new System.Drawing.Size(280, 51);
+            this.btnCreateResume.TabIndex = 4;
+            this.btnCreateResume.Text = "Create my resume";
+            this.btnCreateResume.UseVisualStyleBackColor = true;
+            this.btnCreateResume.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // opnFileDlg
             // 
@@ -138,7 +138,7 @@
             this.ClientSize = new System.Drawing.Size(859, 663);
             this.Controls.Add(this.btnSelectFile);
             this.Controls.Add(this.lblDescription);
-            this.Controls.Add(this.btnCreate);
+            this.Controls.Add(this.btnCreateResume);
             this.Controls.Add(this.lblCreate);
             this.Controls.Add(this.lblResume);
             this.Controls.Add(this.txtboxCheck);
@@ -158,7 +158,7 @@
         private Label lblResume;
         private PictureBox pictureBox1;
         private Label lblCreate;
-        private Button btnCreate;
+        private Button btnCreateResume;
         private OpenFileDialog opnFileDlg;
         private Label lblDescription;
         private Button btnSelectFile;

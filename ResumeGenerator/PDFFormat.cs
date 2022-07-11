@@ -12,9 +12,16 @@ namespace ResumeGenerator
 {
     public partial class PDFFormat : Form
     {
+            
         public PDFFormat()
         {
             InitializeComponent();
+        }
+
+        
+        private void PDFFormat_Load(object sender, EventArgs e)
+        {
+           lblName.Text = GlobalVariable.resume;
         }
     }
 }
