@@ -18,6 +18,7 @@ namespace ResumeGenerator
             {
                 PDFFormat pdfformat = new PDFFormat();
                 pdfformat.ShowDialog();
+                
             }
            else
             {

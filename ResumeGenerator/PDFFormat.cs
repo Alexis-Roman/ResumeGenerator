@@ -24,7 +24,9 @@ namespace ResumeGenerator
         
         private void PDFFormat_Load(object sender, EventArgs e)
         {
-           
+            string filepath = GlobalVariable.resume;
+            var resumeJsonText = File.ReadAllText(filepath);
+            var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
         }
     }
 }
