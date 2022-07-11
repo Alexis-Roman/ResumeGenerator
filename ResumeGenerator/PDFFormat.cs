@@ -21,7 +21,8 @@ namespace ResumeGenerator
         
         private void PDFFormat_Load(object sender, EventArgs e)
         {
-           lblName.Text = GlobalVariable.resume;
+           string filepath = GlobalVariable.resume;
+
         }
     }
 }
