@@ -14,6 +14,19 @@ namespace ResumeGenerator
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+           if(txtboxCheck.Text != "")
+            {
+                PDFFormat pdfformat = new PDFFormat();
+                pdfformat.ShowDialog();
+            }
+           else
+            {
+
+            }    
+        }
+
+        private void btnSelectFile_Click(object sender, EventArgs e)
+        {
             string resume;
 
             opnFileDlg.Filter = "JSON files|*.json";
@@ -21,7 +34,7 @@ namespace ResumeGenerator
             opnFileDlg.ShowDialog();
 
             resume = opnFileDlg.FileName;
-            
+            txtboxCheck.Text = File.ReadAllText(resume);
         }
     }
 } 

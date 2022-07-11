@@ -35,6 +35,7 @@
             this.btnCreate = new System.Windows.Forms.Button();
             this.opnFileDlg = new System.Windows.Forms.OpenFileDialog();
             this.lblDescription = new System.Windows.Forms.Label();
+            this.btnSelectFile = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,6 +45,7 @@
             this.txtboxCheck.Location = new System.Drawing.Point(34, 339);
             this.txtboxCheck.Multiline = true;
             this.txtboxCheck.Name = "txtboxCheck";
+            this.txtboxCheck.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtboxCheck.Size = new System.Drawing.Size(798, 297);
             this.txtboxCheck.TabIndex = 0;
             // 
@@ -88,7 +90,7 @@
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Copperplate Gothic Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCreate.ForeColor = System.Drawing.Color.White;
-            this.btnCreate.Location = new System.Drawing.Point(294, 242);
+            this.btnCreate.Location = new System.Drawing.Point(450, 242);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(280, 51);
             this.btnCreate.TabIndex = 4;
@@ -114,12 +116,27 @@
             this.lblDescription.Text = "Welcome to Resume Create! Please choose a .json file \r\n      to generate your res" +
     "ume in .pdf format";
             // 
+            // btnSelectFile
+            // 
+            this.btnSelectFile.FlatAppearance.BorderSize = 0;
+            this.btnSelectFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectFile.Font = new System.Drawing.Font("Copperplate Gothic Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSelectFile.ForeColor = System.Drawing.Color.White;
+            this.btnSelectFile.Location = new System.Drawing.Point(143, 242);
+            this.btnSelectFile.Name = "btnSelectFile";
+            this.btnSelectFile.Size = new System.Drawing.Size(280, 51);
+            this.btnSelectFile.TabIndex = 6;
+            this.btnSelectFile.Text = "SELECT FILE";
+            this.btnSelectFile.UseVisualStyleBackColor = true;
+            this.btnSelectFile.Click += new System.EventHandler(this.btnSelectFile_Click);
+            // 
             // formResumeCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(859, 663);
+            this.Controls.Add(this.btnSelectFile);
             this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.lblCreate);
@@ -127,6 +144,7 @@
             this.Controls.Add(this.txtboxCheck);
             this.Controls.Add(this.pictureBox1);
             this.Name = "formResumeCreator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resume Creator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -143,5 +161,6 @@
         private Button btnCreate;
         private OpenFileDialog opnFileDlg;
         private Label lblDescription;
+        private Button btnSelectFile;
     }
 }
