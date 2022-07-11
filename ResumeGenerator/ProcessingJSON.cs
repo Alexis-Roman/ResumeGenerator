@@ -17,16 +17,15 @@ namespace ResumeGenerator
             var resumeJsonText = File.ReadAllText(filepath);
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
         }
-        
     }
 
     public class ResumeDetails
     {
-        public string Name { get; set; }
-        public string LocationContactEmail { get; set; }
-        public string Objective { get; set; }
-        public string Education { get; set; }
-        public string Experience { get; set; }
-        public string Certification { get; set; }
+        public string name { get; set; }
+        public string location_contact_email { get; set; }
+        public string objective { get; set; }
+        public string education { get; set; }
+        public string experience { get; set; }
+        public string certification { get; set; }
     }
 }

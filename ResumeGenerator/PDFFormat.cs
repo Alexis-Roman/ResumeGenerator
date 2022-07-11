@@ -26,6 +26,7 @@ namespace ResumeGenerator
         {
             string filepath = GlobalVariable.resume;
             var resumeJsonText = File.ReadAllText(filepath);
+            //MessageBox.Show(resumeJsonText);
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
         }
     }
