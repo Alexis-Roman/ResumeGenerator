@@ -22,8 +22,28 @@ namespace ResumeGenerator
         public string Name { get; set; }
         public string Location_contact_email { get; set; }
         public string Objective { get; set; }
-        public string Education { get; set; }
-        public string Experience { get; set; }
+       
+        public class EducationInfo
+        {
+            public string Course { get; set; }
+            public string University { get; set; }
+            public string YearGraduated { get; set; }
+        }
+       
+        public class ExperienceInfo
+        {
+            public class Experience
+            {
+                public class Position
+                {
+                    public class SeniorProjectManager
+                    {
+                        public string Description1 { get; set; }
+                    }
+                }
+            }
+        }
+        
         public string Certification { get; set; }
 
     }

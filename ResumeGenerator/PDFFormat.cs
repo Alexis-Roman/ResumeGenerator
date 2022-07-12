@@ -26,12 +26,14 @@ namespace ResumeGenerator
             
             string filepath = GlobalVariable.resume;
             var resumeJsonText = File.ReadAllText(filepath);
-          //WORKING EHEHEHE
-          //
+            //WORKING EHEHEHE
+            //Newtonsoft.Json.JsonReaderException: 'Unexpected character encountered
+            //while parsing value: [. Path 'education', line 5, position 22.'
+
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
             lblName.Text = resumedetails.Name;
             txtbxObjective.Text = resumedetails.Objective;
-
+            lblCertification.Text = resumedetails.Certification;
         }
     }
 }
