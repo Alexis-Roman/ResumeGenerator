@@ -34,6 +34,7 @@
             this.lblEducation = new System.Windows.Forms.Label();
             this.lblExperience = new System.Windows.Forms.Label();
             this.lblCertification = new System.Windows.Forms.Label();
+            this.txtbxObjective = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblName
@@ -90,12 +91,22 @@
             this.lblCertification.TabIndex = 5;
             this.lblCertification.Text = "Certification";
             // 
+            // txtbxObjective
+            // 
+            this.txtbxObjective.Location = new System.Drawing.Point(254, 107);
+            this.txtbxObjective.Multiline = true;
+            this.txtbxObjective.Name = "txtbxObjective";
+            this.txtbxObjective.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtbxObjective.Size = new System.Drawing.Size(221, 240);
+            this.txtbxObjective.TabIndex = 6;
+            // 
             // PDFFormat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(624, 798);
+            this.Controls.Add(this.txtbxObjective);
             this.Controls.Add(this.lblCertification);
             this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblEducation);
@@ -119,5 +130,6 @@
         private Label lblEducation;
         private Label lblExperience;
         private Label lblCertification;
+        private TextBox txtbxObjective;
     }
 }
