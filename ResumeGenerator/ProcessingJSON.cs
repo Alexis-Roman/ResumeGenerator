@@ -9,9 +9,9 @@ using Newtonsoft.Json.Linq;
 
 namespace ResumeGenerator
 {
-    internal class ReadResume
+    public class ReadResume
     {
-    static void ReadJSON(string[] args)
+    public static void ReadJSON(string[] args)
         {
             string filepath = GlobalVariable.resume;
             var resumeJsonText = File.ReadAllText(filepath);
@@ -21,11 +21,15 @@ namespace ResumeGenerator
 
     public class ResumeDetails
     {
-        public string name { get; set; }
-        public string location_contact_email { get; set; }
-        public string objective { get; set; }
-        public string education { get; set; }
-        public string experience { get; set; }
-        public string certification { get; set; }
+
+        [JsonProperty("name")]
+
+        public string Name { get; set; }
+        public string Location_contact_email { get; set; }
+        public string Objective { get; set; }
+        public string Education { get; set; }
+        public string Experience { get; set; }
+        public string Certification { get; set; }
+
     }
 }

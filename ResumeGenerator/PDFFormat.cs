@@ -21,12 +21,14 @@ namespace ResumeGenerator
             InitializeComponent();
         }
 
-        
         private void PDFFormat_Load(object sender, EventArgs e)
         {
+            
             string filepath = GlobalVariable.resume;
             var resumeJsonText = File.ReadAllText(filepath);
+
             //MessageBox.Show(resumeJsonText);
+
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
         }
     }
