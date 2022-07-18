@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using Newtonsoft;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace ResumeGenerator
 {
@@ -63,7 +65,21 @@ namespace ResumeGenerator
 
         private void lblCert2_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            //create PDF
+            Document pdfDoc = new Document(PageSize.A4, 20f, 20f, 30f, 30f);
+            PdfWriter pdfWriter = PdfWriter.GetInstance(pdfDoc, new FileStream
+                (@"C:\Users\Nicole\Documents\ROMAN_ALEXIS NICOLE.pdf", FileMode.Create));
+            pdfDoc.Open();
+
+            //Add something to PDF
+            Paragraph pdfParagraph = new Paragraph("II HIYORIIIIIIIIII~");
+            pdfDoc.Add(pdfParagraph);
+            pdfDoc.Close();
         }
     }
 }

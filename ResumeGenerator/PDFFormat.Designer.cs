@@ -81,8 +81,9 @@
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(94, 29);
             this.btnCreate.TabIndex = 1;
-            this.btnCreate.Text = "create";
+            this.btnCreate.Text = "Create PDF";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // lblObjective
             // 
