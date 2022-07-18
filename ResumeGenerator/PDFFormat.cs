@@ -33,7 +33,9 @@ namespace ResumeGenerator
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
             lblName.Text = resumedetails.Name;
             txtbxObjective.Text = resumedetails.Objective;
-            lblCertification.Text = resumedetails.Certification;
+            lblEducation.Text = resumedetails.Education.course;
+            //MessageBox.Show(resumedetails.Education.ToString());
+            //lblEducation.Text = resumedetails.Education.course;
         }
     }
 }

@@ -20,5 +20,21 @@ namespace ResumeGenerator
         }
     }
     */
+    public class ResumeDetails
+    {
+
+        public string Name { get; set; }
+        public string Location_contact_email { get; set; }
+        public string Objective { get; set; }
+        public EducationDetails Education { get; set; }
+
+        public class EducationDetails
+        {
+            public string course { get; set; }
+            public string university { get; set; }
+            public string yeargraduated { get; set; }
+        }
+
     
+    }
 }
