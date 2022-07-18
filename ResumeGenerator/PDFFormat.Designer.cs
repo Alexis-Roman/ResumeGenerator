@@ -69,6 +69,7 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblName.ForeColor = System.Drawing.Color.Black;
             this.lblName.Location = new System.Drawing.Point(22, 14);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(116, 49);
@@ -89,7 +90,7 @@
             // 
             this.lblObjective.AutoSize = true;
             this.lblObjective.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblObjective.ForeColor = System.Drawing.Color.Navy;
+            this.lblObjective.ForeColor = System.Drawing.Color.Black;
             this.lblObjective.Location = new System.Drawing.Point(25, 96);
             this.lblObjective.Name = "lblObjective";
             this.lblObjective.Size = new System.Drawing.Size(89, 24);
@@ -100,7 +101,7 @@
             // 
             this.lblEducation.AutoSize = true;
             this.lblEducation.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEducation.ForeColor = System.Drawing.Color.Navy;
+            this.lblEducation.ForeColor = System.Drawing.Color.Black;
             this.lblEducation.Location = new System.Drawing.Point(28, 669);
             this.lblEducation.Name = "lblEducation";
             this.lblEducation.Size = new System.Drawing.Size(94, 24);
@@ -111,7 +112,7 @@
             // 
             this.lblExperience.AutoSize = true;
             this.lblExperience.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblExperience.ForeColor = System.Drawing.Color.Navy;
+            this.lblExperience.ForeColor = System.Drawing.Color.Black;
             this.lblExperience.Location = new System.Drawing.Point(25, 225);
             this.lblExperience.Name = "lblExperience";
             this.lblExperience.Size = new System.Drawing.Size(101, 24);
@@ -122,7 +123,7 @@
             // 
             this.lblCertification.AutoSize = true;
             this.lblCertification.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCertification.ForeColor = System.Drawing.Color.Navy;
+            this.lblCertification.ForeColor = System.Drawing.Color.Black;
             this.lblCertification.Location = new System.Drawing.Point(27, 798);
             this.lblCertification.Name = "lblCertification";
             this.lblCertification.Size = new System.Drawing.Size(113, 24);
@@ -143,7 +144,7 @@
             // 
             this.lblLocationContactEmail.AutoSize = true;
             this.lblLocationContactEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblLocationContactEmail.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblLocationContactEmail.ForeColor = System.Drawing.Color.Gray;
             this.lblLocationContactEmail.Location = new System.Drawing.Point(25, 60);
             this.lblLocationContactEmail.Name = "lblLocationContactEmail";
             this.lblLocationContactEmail.Size = new System.Drawing.Size(192, 24);
@@ -154,7 +155,7 @@
             // 
             this.lblExperience1.AutoSize = true;
             this.lblExperience1.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblExperience1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.lblExperience1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblExperience1.Location = new System.Drawing.Point(39, 270);
             this.lblExperience1.Name = "lblExperience1";
             this.lblExperience1.Size = new System.Drawing.Size(188, 22);
@@ -165,7 +166,7 @@
             // 
             this.lblExperience2.AutoSize = true;
             this.lblExperience2.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblExperience2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.lblExperience2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblExperience2.Location = new System.Drawing.Point(39, 420);
             this.lblExperience2.Name = "lblExperience2";
             this.lblExperience2.Size = new System.Drawing.Size(147, 22);
@@ -176,7 +177,7 @@
             // 
             this.lblExperience3.AutoSize = true;
             this.lblExperience3.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblExperience3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.lblExperience3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblExperience3.Location = new System.Drawing.Point(39, 542);
             this.lblExperience3.Name = "lblExperience3";
             this.lblExperience3.Size = new System.Drawing.Size(220, 22);
