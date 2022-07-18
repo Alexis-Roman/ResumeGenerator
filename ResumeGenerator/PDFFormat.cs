@@ -84,13 +84,12 @@ namespace ResumeGenerator
                 (iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 15, iTextSharp.text.Font.BOLD, 
                 iTextSharp.text.BaseColor.DARK_GRAY);
 
+
             //Image
             System.Drawing.Image imgLinebar = System.Drawing.Image.FromFile
                 (@"C:\Users\Nicole\Documents\linebar.png");
             iTextSharp.text.Image linebar = iTextSharp.text.Image.GetInstance
                 (imgLinebar, System.Drawing.Imaging.ImageFormat.Png);
-            
-            //linebar.Alignment = Element.ALIGN_CENTER;
 
             //Add something to PDF
             Paragraph linebreak = new Paragraph(" ");
@@ -101,25 +100,71 @@ namespace ResumeGenerator
             //Objective
             Paragraph lbl_objective = new Paragraph("Objective");
             Paragraph objective = new Paragraph(txtbxObjective.Text);
+
             //Experience
-            //SenProjMan
+            Paragraph lbl_experience = new Paragraph("Experience");
+                //SenProjMan
+                Paragraph lbl_senprojman = new Paragraph("   Senior Project Manager");
+                Paragraph lbl_SPM1 = new Paragraph("         "+lblSPM1.Text);
+                Paragraph lbl_SPM2 = new Paragraph("         " + lblSPM2.Text);
+                Paragraph lbl_SPM3 = new Paragraph("         " + lblSPM3.Text);
+                Paragraph lbl_SPM4 = new Paragraph("         " + lblSPM4.Text);
 
-            //SoftEngi
+                //SoftEngi
+                Paragraph lbl_softengi = new Paragraph("   Software Engineer");
+                Paragraph lbl_SE1 = new Paragraph("         " + lblSE1.Text);
+                Paragraph lbl_SE2 = new Paragraph("         " + lblSE2.Text);
+                Paragraph lbl_SE3 = new Paragraph("         " + lblSE3.Text);
 
-            //SoftEngiInt
+                //SoftEngiInt
+                Paragraph lbl_softengiint = new Paragraph("   Software Engineer Intern");
+                Paragraph lbl_SEI1 = new Paragraph("         " + lblSEI1.Text);
+                Paragraph lbl_SEI2 = new Paragraph("         " + lblSEI2.Text);
+                Paragraph lbl_SEI3 = new Paragraph("         " + lblSEI3.Text);
 
             //Education
+            Paragraph lbl_education = new Paragraph("Education");
+            Paragraph course = new Paragraph(lblCourse.Text);
+            Paragraph university = new Paragraph(lblUniversity.Text);
+            Paragraph yeargraduated = new Paragraph(lblYearGraduated.Text);
 
             //Certification
+            Paragraph lbl_certification = new Paragraph("Certification");
+            Paragraph cert1 = new Paragraph(lblCert1.Text);
+            Paragraph cert2 = new Paragraph(lblCert2.Text);
+            Paragraph cert3 = new Paragraph(lblCert3.Text);
 
             //PDF LINES:
             pdfDoc.Add(name);
             pdfDoc.Add(location_contact_email);
             pdfDoc.Add(linebreak);
-            
+            //objective
             pdfDoc.Add(lbl_objective);
             pdfDoc.Add(linebar);
             pdfDoc.Add(objective);
+            //experience
+            pdfDoc.Add(lbl_experience);
+            pdfDoc.Add(linebar);
+                pdfDoc.Add(lbl_senprojman);
+                    pdfDoc.Add(lbl_SPM1);
+                    pdfDoc.Add(lbl_SPM2);
+                    pdfDoc.Add(lbl_SPM3);
+                    pdfDoc.Add(lbl_SPM4);
+                pdfDoc.Add(lbl_softengi);
+                    pdfDoc.Add(lbl_SE1);
+                    pdfDoc.Add(lbl_SE2);
+                    pdfDoc.Add(lbl_SE3);
+                pdfDoc.Add(lbl_softengiint);
+                     pdfDoc.Add(lbl_SEI1);
+                     pdfDoc.Add(lbl_SEI2);
+                     pdfDoc.Add(lbl_SEI3);
+            //education
+            pdfDoc.Add(lbl_education);
+            pdfDoc.Add(linebar);
+
+            //certification
+            pdfDoc.Add(lbl_certification);
+            pdfDoc.Add(linebar);
             pdfDoc.Close();
         }
     }
