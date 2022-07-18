@@ -47,10 +47,23 @@ namespace ResumeGenerator
             lblSEI1.Text = "• " + resumedetails.software_engineering_intern.dtls1;
             lblSEI2.Text = "• " + resumedetails.software_engineering_intern.dtls2;
             lblSEI3.Text = "• " + resumedetails.software_engineering_intern.dtls3;
+
+            lblCourse.Text = resumedetails.Education.course;
+            lblUniversity.Text = resumedetails.Education.university;
+            lblYearGraduated.Text = resumedetails.Education.yeargraduated;
+
+            lblCert1.Text = "• " + resumedetails.Certification.cert1;
+            lblCert2.Text = "• " + resumedetails.Certification.cert2;
+            lblCert3.Text = "• " + resumedetails.Certification.cert3;
             //lblEducation.Text = resumedetails.Education.course;
             //lblExperience.Text = resumedetails.senior_project_manager.dtls1;
             //MessageBox.Show(resumedetails.Education.ToString());
             //lblEducation.Text = resumedetails.Education.course;
+        }
+
+        private void lblCert2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
