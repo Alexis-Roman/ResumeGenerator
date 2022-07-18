@@ -71,14 +71,35 @@ namespace ResumeGenerator
         private void btnCreate_Click(object sender, EventArgs e)
         {
             //create PDF
-            Document pdfDoc = new Document(PageSize.A4, 20f, 20f, 30f, 30f);
+            Document pdfDoc = new Document(PageSize.A4, 50f, 50f, 60f, 60f);
             PdfWriter pdfWriter = PdfWriter.GetInstance(pdfDoc, new FileStream
                 (@"C:\Users\Nicole\Documents\ROMAN_ALEXIS NICOLE.pdf", FileMode.Create));
             pdfDoc.Open();
 
+            //Fonts
+            iTextSharp.text.Font nameFont = FontFactory.GetFont
+                (iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 25, iTextSharp.text.Font.BOLD);    
+
             //Add something to PDF
-            Paragraph pdfParagraph = new Paragraph("II HIYORIIIIIIIIII~");
-            pdfDoc.Add(pdfParagraph);
+
+            //Name & contact info
+            Paragraph name = new Paragraph(lblName.Text, nameFont);
+            Paragraph location_contact_email = new Paragraph(lblLocationContactEmail.Text);
+
+            //Objective
+
+            //Experience
+                //SenProjMan
+
+                //SoftEngi
+
+                //SoftEngiInt
+
+            //Education
+
+            //Certification
+            pdfDoc.Add(name);
+            pdfDoc.Add(location_contact_email);
             pdfDoc.Close();
         }
     }

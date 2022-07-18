@@ -68,10 +68,10 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblName.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblName.Location = new System.Drawing.Point(22, 14);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(122, 47);
+            this.lblName.Size = new System.Drawing.Size(116, 49);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "name";
             // 
@@ -88,51 +88,51 @@
             // lblObjective
             // 
             this.lblObjective.AutoSize = true;
-            this.lblObjective.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblObjective.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblObjective.ForeColor = System.Drawing.Color.Navy;
             this.lblObjective.Location = new System.Drawing.Point(25, 96);
             this.lblObjective.Name = "lblObjective";
-            this.lblObjective.Size = new System.Drawing.Size(95, 23);
+            this.lblObjective.Size = new System.Drawing.Size(89, 24);
             this.lblObjective.TabIndex = 2;
             this.lblObjective.Text = "Objective";
             // 
             // lblEducation
             // 
             this.lblEducation.AutoSize = true;
-            this.lblEducation.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEducation.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEducation.ForeColor = System.Drawing.Color.Navy;
             this.lblEducation.Location = new System.Drawing.Point(28, 669);
             this.lblEducation.Name = "lblEducation";
-            this.lblEducation.Size = new System.Drawing.Size(102, 23);
+            this.lblEducation.Size = new System.Drawing.Size(94, 24);
             this.lblEducation.TabIndex = 3;
             this.lblEducation.Text = "Education";
             // 
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
-            this.lblExperience.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblExperience.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblExperience.ForeColor = System.Drawing.Color.Navy;
             this.lblExperience.Location = new System.Drawing.Point(25, 225);
             this.lblExperience.Name = "lblExperience";
-            this.lblExperience.Size = new System.Drawing.Size(114, 23);
+            this.lblExperience.Size = new System.Drawing.Size(101, 24);
             this.lblExperience.TabIndex = 4;
             this.lblExperience.Text = "Experience";
             // 
             // lblCertification
             // 
             this.lblCertification.AutoSize = true;
-            this.lblCertification.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCertification.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCertification.ForeColor = System.Drawing.Color.Navy;
             this.lblCertification.Location = new System.Drawing.Point(27, 798);
             this.lblCertification.Name = "lblCertification";
-            this.lblCertification.Size = new System.Drawing.Size(123, 23);
+            this.lblCertification.Size = new System.Drawing.Size(113, 24);
             this.lblCertification.TabIndex = 5;
             this.lblCertification.Text = "Certification";
             // 
             // txtbxObjective
             // 
             this.txtbxObjective.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxObjective.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxObjective.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxObjective.Location = new System.Drawing.Point(39, 145);
             this.txtbxObjective.Multiline = true;
             this.txtbxObjective.Name = "txtbxObjective";
@@ -142,154 +142,154 @@
             // lblLocationContactEmail
             // 
             this.lblLocationContactEmail.AutoSize = true;
-            this.lblLocationContactEmail.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblLocationContactEmail.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblLocationContactEmail.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblLocationContactEmail.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblLocationContactEmail.Location = new System.Drawing.Point(25, 60);
             this.lblLocationContactEmail.Name = "lblLocationContactEmail";
-            this.lblLocationContactEmail.Size = new System.Drawing.Size(186, 22);
+            this.lblLocationContactEmail.Size = new System.Drawing.Size(192, 24);
             this.lblLocationContactEmail.TabIndex = 8;
             this.lblLocationContactEmail.Text = "LocationContactEmail";
             // 
             // lblExperience1
             // 
             this.lblExperience1.AutoSize = true;
-            this.lblExperience1.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblExperience1.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblExperience1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblExperience1.Location = new System.Drawing.Point(39, 270);
             this.lblExperience1.Name = "lblExperience1";
-            this.lblExperience1.Size = new System.Drawing.Size(204, 21);
+            this.lblExperience1.Size = new System.Drawing.Size(188, 22);
             this.lblExperience1.TabIndex = 9;
             this.lblExperience1.Text = "Senior Project Manager";
             // 
             // lblExperience2
             // 
             this.lblExperience2.AutoSize = true;
-            this.lblExperience2.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblExperience2.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblExperience2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblExperience2.Location = new System.Drawing.Point(39, 420);
             this.lblExperience2.Name = "lblExperience2";
-            this.lblExperience2.Size = new System.Drawing.Size(163, 21);
+            this.lblExperience2.Size = new System.Drawing.Size(147, 22);
             this.lblExperience2.TabIndex = 10;
             this.lblExperience2.Text = "Software Engineer";
             // 
             // lblExperience3
             // 
             this.lblExperience3.AutoSize = true;
-            this.lblExperience3.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblExperience3.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblExperience3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblExperience3.Location = new System.Drawing.Point(39, 542);
             this.lblExperience3.Name = "lblExperience3";
-            this.lblExperience3.Size = new System.Drawing.Size(246, 21);
+            this.lblExperience3.Size = new System.Drawing.Size(220, 22);
             this.lblExperience3.TabIndex = 11;
             this.lblExperience3.Text = "Software Engineering Intern";
             // 
             // lblSPM1
             // 
             this.lblSPM1.AutoSize = true;
-            this.lblSPM1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSPM1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSPM1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSPM1.Location = new System.Drawing.Point(65, 302);
             this.lblSPM1.Name = "lblSPM1";
-            this.lblSPM1.Size = new System.Drawing.Size(16, 20);
+            this.lblSPM1.Size = new System.Drawing.Size(18, 21);
             this.lblSPM1.TabIndex = 12;
             this.lblSPM1.Text = "*";
             // 
             // lblSPM2
             // 
             this.lblSPM2.AutoSize = true;
-            this.lblSPM2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSPM2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSPM2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSPM2.Location = new System.Drawing.Point(65, 331);
             this.lblSPM2.Name = "lblSPM2";
-            this.lblSPM2.Size = new System.Drawing.Size(16, 20);
+            this.lblSPM2.Size = new System.Drawing.Size(18, 21);
             this.lblSPM2.TabIndex = 13;
             this.lblSPM2.Text = "*";
             // 
             // lblSPM3
             // 
             this.lblSPM3.AutoSize = true;
-            this.lblSPM3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSPM3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSPM3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSPM3.Location = new System.Drawing.Point(65, 361);
             this.lblSPM3.Name = "lblSPM3";
-            this.lblSPM3.Size = new System.Drawing.Size(16, 20);
+            this.lblSPM3.Size = new System.Drawing.Size(18, 21);
             this.lblSPM3.TabIndex = 14;
             this.lblSPM3.Text = "*";
             // 
             // lblSPM4
             // 
             this.lblSPM4.AutoSize = true;
-            this.lblSPM4.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSPM4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSPM4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSPM4.Location = new System.Drawing.Point(65, 391);
             this.lblSPM4.Name = "lblSPM4";
-            this.lblSPM4.Size = new System.Drawing.Size(16, 20);
+            this.lblSPM4.Size = new System.Drawing.Size(18, 21);
             this.lblSPM4.TabIndex = 15;
             this.lblSPM4.Text = "*";
             // 
             // lblSE3
             // 
             this.lblSE3.AutoSize = true;
-            this.lblSE3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSE3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSE3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSE3.Location = new System.Drawing.Point(65, 518);
             this.lblSE3.Name = "lblSE3";
-            this.lblSE3.Size = new System.Drawing.Size(16, 20);
+            this.lblSE3.Size = new System.Drawing.Size(18, 21);
             this.lblSE3.TabIndex = 18;
             this.lblSE3.Text = "*";
             // 
             // lblSE2
             // 
             this.lblSE2.AutoSize = true;
-            this.lblSE2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSE2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSE2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSE2.Location = new System.Drawing.Point(65, 488);
             this.lblSE2.Name = "lblSE2";
-            this.lblSE2.Size = new System.Drawing.Size(16, 20);
+            this.lblSE2.Size = new System.Drawing.Size(18, 21);
             this.lblSE2.TabIndex = 17;
             this.lblSE2.Text = "*";
             // 
             // lblSE1
             // 
             this.lblSE1.AutoSize = true;
-            this.lblSE1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSE1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSE1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSE1.Location = new System.Drawing.Point(65, 458);
             this.lblSE1.Name = "lblSE1";
-            this.lblSE1.Size = new System.Drawing.Size(16, 20);
+            this.lblSE1.Size = new System.Drawing.Size(18, 21);
             this.lblSE1.TabIndex = 16;
             this.lblSE1.Text = "*";
             // 
             // lblSEI3
             // 
             this.lblSEI3.AutoSize = true;
-            this.lblSEI3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSEI3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSEI3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSEI3.Location = new System.Drawing.Point(65, 637);
             this.lblSEI3.Name = "lblSEI3";
-            this.lblSEI3.Size = new System.Drawing.Size(16, 20);
+            this.lblSEI3.Size = new System.Drawing.Size(18, 21);
             this.lblSEI3.TabIndex = 21;
             this.lblSEI3.Text = "*";
             // 
             // lblSEI2
             // 
             this.lblSEI2.AutoSize = true;
-            this.lblSEI2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSEI2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSEI2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSEI2.Location = new System.Drawing.Point(65, 607);
             this.lblSEI2.Name = "lblSEI2";
-            this.lblSEI2.Size = new System.Drawing.Size(16, 20);
+            this.lblSEI2.Size = new System.Drawing.Size(18, 21);
             this.lblSEI2.TabIndex = 20;
             this.lblSEI2.Text = "*";
             // 
             // lblSEI1
             // 
             this.lblSEI1.AutoSize = true;
-            this.lblSEI1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSEI1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblSEI1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblSEI1.Location = new System.Drawing.Point(65, 577);
             this.lblSEI1.Name = "lblSEI1";
-            this.lblSEI1.Size = new System.Drawing.Size(16, 20);
+            this.lblSEI1.Size = new System.Drawing.Size(18, 21);
             this.lblSEI1.TabIndex = 19;
             this.lblSEI1.Text = "*";
             // 
@@ -323,33 +323,33 @@
             // lblYearGraduated
             // 
             this.lblYearGraduated.AutoSize = true;
-            this.lblYearGraduated.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblYearGraduated.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblYearGraduated.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblYearGraduated.Location = new System.Drawing.Point(65, 774);
             this.lblYearGraduated.Name = "lblYearGraduated";
-            this.lblYearGraduated.Size = new System.Drawing.Size(16, 20);
+            this.lblYearGraduated.Size = new System.Drawing.Size(18, 21);
             this.lblYearGraduated.TabIndex = 27;
             this.lblYearGraduated.Text = "*";
             // 
             // lblUniversity
             // 
             this.lblUniversity.AutoSize = true;
-            this.lblUniversity.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblUniversity.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblUniversity.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblUniversity.Location = new System.Drawing.Point(65, 744);
             this.lblUniversity.Name = "lblUniversity";
-            this.lblUniversity.Size = new System.Drawing.Size(16, 20);
+            this.lblUniversity.Size = new System.Drawing.Size(18, 21);
             this.lblUniversity.TabIndex = 26;
             this.lblUniversity.Text = "*";
             // 
             // lblCourse
             // 
             this.lblCourse.AutoSize = true;
-            this.lblCourse.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCourse.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCourse.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblCourse.Location = new System.Drawing.Point(65, 714);
             this.lblCourse.Name = "lblCourse";
-            this.lblCourse.Size = new System.Drawing.Size(18, 21);
+            this.lblCourse.Size = new System.Drawing.Size(19, 22);
             this.lblCourse.TabIndex = 25;
             this.lblCourse.Text = "*";
             // 
@@ -365,11 +365,11 @@
             // lblCert2
             // 
             this.lblCert2.AutoSize = true;
-            this.lblCert2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCert2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCert2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblCert2.Location = new System.Drawing.Point(65, 879);
             this.lblCert2.Name = "lblCert2";
-            this.lblCert2.Size = new System.Drawing.Size(16, 20);
+            this.lblCert2.Size = new System.Drawing.Size(18, 21);
             this.lblCert2.TabIndex = 30;
             this.lblCert2.Text = "*";
             this.lblCert2.Click += new System.EventHandler(this.lblCert2_Click);
@@ -377,22 +377,22 @@
             // lblCert1
             // 
             this.lblCert1.AutoSize = true;
-            this.lblCert1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCert1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCert1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblCert1.Location = new System.Drawing.Point(65, 849);
             this.lblCert1.Name = "lblCert1";
-            this.lblCert1.Size = new System.Drawing.Size(16, 20);
+            this.lblCert1.Size = new System.Drawing.Size(18, 21);
             this.lblCert1.TabIndex = 29;
             this.lblCert1.Text = "*";
             // 
             // lblCert3
             // 
             this.lblCert3.AutoSize = true;
-            this.lblCert3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCert3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCert3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblCert3.Location = new System.Drawing.Point(65, 912);
             this.lblCert3.Name = "lblCert3";
-            this.lblCert3.Size = new System.Drawing.Size(16, 20);
+            this.lblCert3.Size = new System.Drawing.Size(18, 21);
             this.lblCert3.TabIndex = 31;
             this.lblCert3.Text = "*";
             // 
