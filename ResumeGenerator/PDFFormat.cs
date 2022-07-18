@@ -78,28 +78,48 @@ namespace ResumeGenerator
 
             //Fonts
             iTextSharp.text.Font nameFont = FontFactory.GetFont
-                (iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 25, iTextSharp.text.Font.BOLD);    
+                (iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 25, iTextSharp.text.Font.BOLD);
+
+            iTextSharp.text.Font contactFont = FontFactory.GetFont
+                (iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 15, iTextSharp.text.Font.BOLD, 
+                iTextSharp.text.BaseColor.DARK_GRAY);
+
+            //Image
+            System.Drawing.Image imgLinebar = System.Drawing.Image.FromFile
+                (@"C:\Users\Nicole\Documents\linebar.png");
+            iTextSharp.text.Image linebar = iTextSharp.text.Image.GetInstance
+                (imgLinebar, System.Drawing.Imaging.ImageFormat.Png);
+            
+            //linebar.Alignment = Element.ALIGN_CENTER;
 
             //Add something to PDF
-
+            Paragraph linebreak = new Paragraph(" ");
             //Name & contact info
             Paragraph name = new Paragraph(lblName.Text, nameFont);
-            Paragraph location_contact_email = new Paragraph(lblLocationContactEmail.Text);
+            Paragraph location_contact_email = new Paragraph(lblLocationContactEmail.Text, contactFont);
 
             //Objective
-
+            Paragraph lbl_objective = new Paragraph("Objective");
+            Paragraph objective = new Paragraph(txtbxObjective.Text);
             //Experience
-                //SenProjMan
+            //SenProjMan
 
-                //SoftEngi
+            //SoftEngi
 
-                //SoftEngiInt
+            //SoftEngiInt
 
             //Education
 
             //Certification
+
+            //PDF LINES:
             pdfDoc.Add(name);
             pdfDoc.Add(location_contact_email);
+            pdfDoc.Add(linebreak);
+            
+            pdfDoc.Add(lbl_objective);
+            pdfDoc.Add(linebar);
+            pdfDoc.Add(objective);
             pdfDoc.Close();
         }
     }
