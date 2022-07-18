@@ -43,23 +43,23 @@ namespace ResumeGenerator
         
         public class SeniorProjectManager_details
         {
-                public string dtls1 { get; set; }
-                public string dtls2 { get; set; }
-                public string dtls3 { get; set; }
-                public string dtls4 { get; set; }
+            public string dtls1 { get; set; }
+            public string dtls2 { get; set; }
+            public string dtls3 { get; set; }
+            public string dtls4 { get; set; }
 
         }
         public class SoftwareEngineer_details
         {
-                public string dtls1 { get; set; }
-                public string dtls2 { get; set; }
-                public string dtls3 { get; set; }
+            public string dtls1 { get; set; }
+            public string dtls2 { get; set; }
+            public string dtls3 { get; set; }
         }
         public class SoftwareEngineeringIntern_details
         {
-                public string dtls1 { get; set; }
-                public string dtls2 { get; set; }
-                public string dtls3 { get; set; }
+            public string dtls1 { get; set; }
+            public string dtls2 { get; set; }
+            public string dtls3 { get; set; }
         }
     
         public class CertificationDetails

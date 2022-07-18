@@ -32,9 +32,14 @@ namespace ResumeGenerator
 
             var resumedetails = JsonConvert.DeserializeObject<ResumeDetails>(resumeJsonText);
             lblName.Text = resumedetails.Name;
+            lblLocationContactEmail.Text = resumedetails.Location_contact_email;
+
             txtbxObjective.Text = resumedetails.Objective;
-            lblEducation.Text = resumedetails.Education.course;
-            lblExperience.Text = resumedetails.senior_project_manager.dtls1;
+   
+            
+            //txtbxExperience.Text =resumedetails.senior_project_manager.dtls1;
+            //lblEducation.Text = resumedetails.Education.course;
+            //lblExperience.Text = resumedetails.senior_project_manager.dtls1;
             //MessageBox.Show(resumedetails.Education.ToString());
             //lblEducation.Text = resumedetails.Education.course;
         }
