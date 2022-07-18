@@ -27,7 +27,12 @@ namespace ResumeGenerator
         public string Location_contact_email { get; set; }
         public string Objective { get; set; }
         public EducationDetails Education { get; set; }
-
+        public SeniorProjectManager_details senior_project_manager { get; set; }
+        public SoftwareEngineer_details software_engineer { get; set; }
+        public SoftwareEngineeringIntern_details software_engineering_intern { get; set; }
+        public CertificationDetails Certification { get; set; }
+        
+        
         public class EducationDetails
         {
             public string course { get; set; }
@@ -35,6 +40,33 @@ namespace ResumeGenerator
             public string yeargraduated { get; set; }
         }
 
+        
+        public class SeniorProjectManager_details
+        {
+                public string dtls1 { get; set; }
+                public string dtls2 { get; set; }
+                public string dtls3 { get; set; }
+                public string dtls4 { get; set; }
+
+        }
+        public class SoftwareEngineer_details
+        {
+                public string dtls1 { get; set; }
+                public string dtls2 { get; set; }
+                public string dtls3 { get; set; }
+        }
+        public class SoftwareEngineeringIntern_details
+        {
+                public string dtls1 { get; set; }
+                public string dtls2 { get; set; }
+                public string dtls3 { get; set; }
+        }
     
+        public class CertificationDetails
+        {
+            public string cert1 { get; set; }
+            public string cert2 { get; set; }
+            public string cert3 { get; set; }
+        }
     }
 }

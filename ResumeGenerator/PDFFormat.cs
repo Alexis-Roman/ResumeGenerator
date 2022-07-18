@@ -34,6 +34,7 @@ namespace ResumeGenerator
             lblName.Text = resumedetails.Name;
             txtbxObjective.Text = resumedetails.Objective;
             lblEducation.Text = resumedetails.Education.course;
+            lblExperience.Text = resumedetails.senior_project_manager.dtls1;
             //MessageBox.Show(resumedetails.Education.ToString());
             //lblEducation.Text = resumedetails.Education.course;
         }
