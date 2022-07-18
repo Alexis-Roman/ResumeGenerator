@@ -1,0 +1,38 @@
+     {
+        "name": "ALEXIS NICOLE B. ROMAN",
+        "location_contact_email": "Rochester, New York | 914-654-7075 | romanan.gmail.com",
+        "objective" : "A skilled program assistant with more than 15 years of expertise ensures the efficient operation of several programs. Very Highly considerate and detail-oriented. Excellent customer service skills while adhering to program requirements.",
+        "education": {
+            "course": "Bachelor of Science in Computer Engineering",
+             "university":"New York University",
+             "yeargraduated" : "1999-2002"
+         },
+         
+        "senior_project_manager":{
+            "dtls1":"Ensured that supplies for the program were available and suitably stored",
+            "dtls2":"Responsible for improving and developing IT project strategies.",
+            "dtls3":"Reduce the cost of IT maintenance in 2016 by rebuilding server infastracture",
+            "dtls4":"Maintain a positive work environment by being friendly with co-workers"
+                 },
+
+        "software_engineer": {
+            "dtls1":"Engineered modern applications with Java, JavaScript, SQL Server, and No SQL.",
+            "dtls2":"Built innovative microservices and Web Services (incl. SOA/SOAP/REST/XML).",
+            "dtls3":"Utilized Cloud Foundry for efficient building on top of Kubernetes."
+                },
+
+         "software_engineering_intern": {
+            "dtls1":"Supported Kell Tech's testing and engineering processes.",
+            "dtls2":"Worked closely with product team on scope of future projects and innovations.",
+            "dtls3":"Continuous identification, measurement, and improvement of processes."
+                },
+            
+
+         "certification":{
+            "cert1":"Cloudera Certified Developer for Apache Hadoop (CCDH)",
+            "cert2":"Oracle Java Certifications Associate Professional",
+            "cert3":"Puppet Labs Puppet Developer Certification"
+             }
+ 
+ 
+    }    
