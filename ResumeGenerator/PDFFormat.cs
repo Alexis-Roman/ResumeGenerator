@@ -35,9 +35,18 @@ namespace ResumeGenerator
             lblLocationContactEmail.Text = resumedetails.Location_contact_email;
 
             txtbxObjective.Text = resumedetails.Objective;
-   
+            lblSPM1.Text = "• " + resumedetails.senior_project_manager.dtls1;
+            lblSPM2.Text = "• " + resumedetails.senior_project_manager.dtls2;
+            lblSPM3.Text = "• " + resumedetails.senior_project_manager.dtls3;
+            lblSPM4.Text = "• " + resumedetails.senior_project_manager.dtls4;
             
-            //txtbxExperience.Text =resumedetails.senior_project_manager.dtls1;
+            lblSE1.Text = "• " + resumedetails.software_engineer.dtls1;
+            lblSE2.Text = "• " + resumedetails.software_engineer.dtls2;
+            lblSE3.Text = "• " + resumedetails.software_engineer.dtls3;
+
+            lblSEI1.Text = "• " + resumedetails.software_engineering_intern.dtls1;
+            lblSEI2.Text = "• " + resumedetails.software_engineering_intern.dtls2;
+            lblSEI3.Text = "• " + resumedetails.software_engineering_intern.dtls3;
             //lblEducation.Text = resumedetails.Education.course;
             //lblExperience.Text = resumedetails.senior_project_manager.dtls1;
             //MessageBox.Show(resumedetails.Education.ToString());
